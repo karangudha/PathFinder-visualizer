@@ -9,13 +9,13 @@
   "engines": {
     "node": "22.x"
   },
- "scripts": {
-  "start": "react-scripts start",
-  "build": "cross-env CI=false react-scripts build",
-  "vercel-build": "cross-env CI=false react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "cross-env CI=false react-scripts build",
+    "vercel-build": "cross-env CI=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
