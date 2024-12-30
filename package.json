@@ -9,12 +9,12 @@
   "engines": {
     "node": "20.x"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "CI=false react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+ "scripts": {
+  "start": "react-scripts start",
+  "build": "cross-env CI=false react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+},
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -32,6 +32,7 @@
   },
   "type": "module",
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "react-scripts": "^5.0.1",
     "webpack": "^5.88.0",
     "webpack-cli": "^5.1.4"
