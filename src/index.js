@@ -1,10 +1,18 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';  // Ensure correct import
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import App from './App.js';
+import * as serviceWorker from './serviceWorker.js';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// Create root for React 18
+const root = ReactDOM.createRoot(document.getElementById('root')); 
+
+// Render the app to the root
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
