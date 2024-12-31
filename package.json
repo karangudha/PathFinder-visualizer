@@ -32,6 +32,7 @@
   },
   "type": "module",
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "cross-env": "^7.0.3",
     "react-scripts": "^5.0.1",
     "webpack": "^5.88.0",
