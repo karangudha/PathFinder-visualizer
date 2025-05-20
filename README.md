@@ -1,7 +1,1 @@
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+A web-based pathfinding visualizer that shows the shortest distance between two nodes, calculated using Dijkstra's algorithm.
